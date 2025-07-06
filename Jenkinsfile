@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/<your-username>/spring-petclinic.git'
+                git 'https://github.com/OoONANCY/spring-petclinic.git'
             }
         }
 
